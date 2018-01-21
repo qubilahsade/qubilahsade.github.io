@@ -1,0 +1,93 @@
+#hooks {
+  width: 400px;
+  height: 400px;
+}
+
+.sidebar {
+  float:left;
+  width: 30%;
+}
+
+.content {
+  float: right;
+  width: 65%;
+}
+
+p em {
+  color:#C0392B;
+}
+div {
+  width: 40%;
+  padding: 5px;
+  border: 1px dotted #FF5722;
+  margin: auto
+}
+p {
+  color: #F0F3F4;
+  background-position: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#redherring {
+  color: red;
+}
+#violet {
+  color: violet;
+}
+#colorful-list {
+  color: blue;
+}
+#orange {
+  color: orange;
+}
+
+.navigation {
+  list-style: none;
+}
+.navigation-link {
+  font-size: 20px;
+}
+ul.navigation {
+    background-color: #C0392B;
+    display: block;
+    list-style: none;
+    margin-top: 0;
+    width: 150%;
+    height: 35px;
+  }
+  ul.navigation li {
+      display: inline-block;
+      float: left;
+  }
+  ul.navigation a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  ul.navigation a:hover {
+    background-color: black;
+    color: white;
+  }
+a:link {
+  color: #17202A;
+  text-decoration: none;
+}
+  /*  unvisited link*/
+a:visited {
+  color: #EAECEE;
+}
+  /* visited link */
+  a:hover {
+    color: #E74C3C;
+  }
+/* mouse over link */
+a:active {
+color: #F39C12;
+}
+/* selected link */
+body {
+  background-image: url(eye-for-ebony-340137.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
